@@ -1,3 +1,13 @@
+import Layout from "./layout/Layout";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Layout>
+        <div>
+          <h1>App</h1>
+        </div>
+      </Layout>
+    </>
+  );
 }
