@@ -1,0 +1,21 @@
+/* Select scroll bar thumb */
+.scrollbar::-webkit-scrollbar-thumb {
+  /* Sets the scrollbar thumb color */
+  background-color: #edf2f7;
+  border-radius: 6px; /* rounded thumb edge */
+}
+
+/* Selects the scrollbar itself */
+.scrollbar::-webkit-scrollbar {
+  /* Sets the width of the scrollbar */
+  width: 5px;
+  /* Sets the height of the scroll bar */
+  height: 5px;
+}
+
+/* Select track from scroll bar */
+.scrollbar::-webkit-scrollbar-track {
+  /* sets the color of the scroll bar track */
+  background-color: #4a5568; /* color of the track */
+  border-radius: 6px; /* rounded track edge */
+}

@@ -5,11 +5,11 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: LayoutProps): JSX.Element {
   return (
-    <div className="bg-gray-950 h-screen w-full text-white">
+    <div className="flex flex-col h-screen w-full text-white">
       <Header />
-      <main>{children}</main>
+      <main className="flex-1">{children}</main>
       <Footer />
     </div>
   );
